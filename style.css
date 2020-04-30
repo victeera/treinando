@@ -1,0 +1,77 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	height: 120px;
+	
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	width: 990px;
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+	color: white;
+}
+
+nav{
+	display:: flex;
+
+}
+
+nav ul,
+nav li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul{
+	display: flex;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	padding: 15px;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
