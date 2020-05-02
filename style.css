@@ -1,3 +1,6 @@
+*{
+	font-family: Verdana;
+}
 body{
 	padding: 0px;
 	margin: 0px;
@@ -57,6 +60,45 @@ nav a {
 nav a:hover{
 	background-color: #FF9A17;
 	color: white;
+}
+
+.column{
+	flex-direction:column;
+}
+
+#banner{
+	display: flex;
+	justify-content: center;
+	background-image: url("assets/img/banner.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 670px
+}
+
+.title_banner{
+	flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title_banner h1{
+	color:#FF9A17;
+    font-size: 40px;
+    text-shadow: 0px 1px 0px black;
+    margin: 0;
+    padding: 0;
+    max-width: 450px;
+}
+
+.title_banner h2{
+	
+	color: #FFC917;
+    font-size: 22px;
+    text-shadow: 0px 1px 0px black;
+	padding: 0;
+    max-width: 350px;
+    margin-top: 25px;
 }
 
 
