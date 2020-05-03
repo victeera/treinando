@@ -66,6 +66,11 @@ nav a:hover{
 	flex-direction:column;
 }
 
+.column1{
+	flex-direction:column;
+	align-items: center;
+}
+
 #banner{
 	display: flex;
 	justify-content: center;
@@ -101,8 +106,28 @@ nav a:hover{
     margin-top: 25px;
 }
 
+#promo{
+	display:flex;
+	justify-content: center;
+}
 
+.title_promo{
+	color: #FF9A17;
+	display:flex;
+	justify-content: center;
+	font-size: 22px;
+}
 
+.folder{
+	display: flex;
+}
+
+.f_promo{
+	width: 430px;
+	height: 322px;
+	background-color: black;
+	margin: 10px;
+}
 
 
 
