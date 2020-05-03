@@ -123,11 +123,26 @@ nav a:hover{
 }
 
 .f_promo{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url("assets/img/cataratas.jpg");
 	width: 430px;
 	height: 322px;
-	background-color: black;
 	margin: 10px;
+	background-position: center;
+	background-size: cover;
 }
+
+.f_promo a{
+	padding: 8px;
+	border: solid 1px white;
+	width: 80px;
+	color: white;
+	margin: 10px;
+	text-decoration: none;
+}
+
 
 
 
