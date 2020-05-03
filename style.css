@@ -149,6 +149,51 @@ nav a:hover{
 	margin-left:10px;
 }
 
+#final{
+	display: flex;
+	justify-content: center;
+}
+
+.title{
+	height: 109px;
+	line-height: 55px;
+	background-color: #FFC917;
+	text-align: center;
+	color: white;
+	text-shadow: 0px 1px 0px black;
+	margin: 20px;
+}
+
+.sub_title{
+	margin-top: 20px;
+	height: 120px;
+	background-color: #dff2fe;
+	padding: 15px; 
+}
+
+.sub_title h1{	
+	text-align:center;
+	margin: 0;
+	font-weight: initial;
+}
+
+.sub_title h2{
+	font-size: 20px;	
+	text-align:center;
+	font-weight: initial;
+	margin-left: 5px;
+}
+
+.sub_title h3{
+	font-size: 12px;
+	margin-left: 5px;
+	color: #5e7f96;
+	font-weight: initial;
+}
+
+
+
+
 
 
 
