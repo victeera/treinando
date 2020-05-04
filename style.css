@@ -190,7 +190,28 @@ nav a:hover{
 	color: #5e7f96;
 	font-weight: initial;
 }
+.foto{
+	display: flex;
+	margin-top: 40px;
+	margin-left: 118px;
+	
+	width: 744px;
+	height: 356px;
+	background-image: url("assets/img/floresta.jpg");	
+}
 
+.rodape{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #323232;
+	height: 140px;
+	margin-top: 40px;
+}
+
+.copyright{
+	color: #5e7f96;
+}
 
 
 
