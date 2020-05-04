@@ -63,10 +63,12 @@ nav a:hover{
 }
 
 .column{
+	display: flex;
 	flex-direction:column;
 }
 
 .column1{
+	display: flex;
 	flex-direction:column;
 	align-items: center;
 }
@@ -77,7 +79,7 @@ nav a:hover{
 	background-image: url("assets/img/banner.jpg");
 	background-position: center;
 	background-size: cover;
-	height: 670px
+	height: 670px;
 }
 
 .title_banner{
@@ -146,7 +148,7 @@ nav a:hover{
 .f_promo h2{
 	font-size: 20px;
 	color: white;
-	margin-left:10px;
+	margin:10px;
 }
 
 #final{
@@ -190,15 +192,19 @@ nav a:hover{
 	color: #5e7f96;
 	font-weight: initial;
 }
-.foto{
+
+.lugar_foto{
 	display: flex;
+	justify-content:center;
+}
+
+
+.foto{
 	margin-top: 40px;
-	margin-left: 118px;
-	
-	width: 744px;
 	height: 356px;
 	background-image: url("assets/img/floresta.jpg");	
 }
+
 
 .rodape{
 	display: flex;
@@ -213,16 +219,136 @@ nav a:hover{
 	color: #5e7f96;
 }
 
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mm_line{
+    height: 3px;
+    background-color: #FF9A17;
+}
+
+@media (max-width: 1010px) and (min-width: 912px){
+	
+
+	.title_banner h1{
+		font-size: 30px;
+		margin-left:20px;
+		
+	}
+	
+	.title_banner h2{
+		font-size: 15px;
+		margin-left:20px;
+	}
+	
+}
 
 
+@media (max-width: 911px){
+	
+	.title_banner h1{
+		font-size: 30px;
+		margin-left:20px;
+		width: 250px;
+	}
+	
+	.title_banner h2{
+		font-size: 15px;
+		margin-left:20px;
+	}
+	
+	.f_promo{
+		width: 320px;
+	} 
+
+	.sub_title h1{	
+	font-size: 20;
+}
+
+	.sub_title h2{
+	font-size: 15px;	
+
+}
+
+	.sub_title h3{
+	font-size: 10px;
+	
+}
+
+}
 
 
+@media (max-width: 690px){
+	.title_banner h1{
+		margin-top: 20px;
+	}
+	
+	.foto{
+		display: none;
+	}
+	.sub_title{
+		max-width: 600px;
+	}
+	
+	.folder{
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+        margin-top: 50px;
+    }
+	
+	    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
 
+@media (max-width: 690px){
+	.logo img{
+		width: 200px;
+	}
+	
+	.title{
+		display: none;
+	}
+	
+	.sub_title h1{	
+	font-size: 18px;
+}
 
+	.sub_title h2{
+	font-size: 12px;
+}
+	.f_promo{
+		width: 300px;
+	}
+	
+	.title_promo h1{
+		font-size:17px;
+		margin-top: 20px;
+	}
+	
+	.f_promo h2{
+		margin-top: 20px;
+		font-size: 12px;
+	}
 
-
-
-
+}
 
 
 
